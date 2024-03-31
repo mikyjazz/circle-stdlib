@@ -42,7 +42,7 @@ jobs:
     - name: Checkout circle-stdlib
       uses: actions/checkout@v3
       with:
-        repository: smuehlst/circle-stdlib
+        repository: mikyjazz/circle-stdlib
         path: circle-stdlib
 
     - name: Cache QEMU
@@ -56,7 +56,7 @@ jobs:
       if: steps.qemu-6_0_0-cache-id.outputs.cache-hit != 'true'
       uses: actions/checkout@v3
       with:
-        repository: smuehlst/qemu
+        repository: mikyjazz/qemu
         ref: 2568d421e0e6855b3b45f455bbc90b41b50cb8df
         path: qemu
 
