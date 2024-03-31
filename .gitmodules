@@ -1,6 +1,3 @@
-[submodule "libs/circle"]
-	path = libs/circle
-	url = https://github.com/mikyjazz/circle.git
 [submodule "libs/circle-newlib"]
 	path = libs/circle-newlib
 	url = https://github.com/mikyjazz/circle-newlib
