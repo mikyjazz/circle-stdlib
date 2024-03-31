@@ -1,10 +1,10 @@
 [submodule "libs/circle"]
 	path = libs/circle
-	url = https://github.com/rsta2/circle.git
+	url = https://github.com/mikyjazz/circle.git
 [submodule "libs/circle-newlib"]
 	path = libs/circle-newlib
-	url = https://github.com/smuehlst/circle-newlib
+	url = https://github.com/mikyjazz/circle-newlib
 	branch = circle-newlib
 [submodule "libs/mbedtls"]
 	path = libs/mbedtls
-	url = https://github.com/ARMmbed/mbedtls.git
+	url = https://github.com/mikyjazz/mbedtls.git
