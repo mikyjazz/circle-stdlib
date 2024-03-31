@@ -5,3 +5,6 @@
 [submodule "libs/mbedtls"]
 	path = libs/mbedtls
 	url = https://github.com/mikyjazz/mbedtls.git
+[submodule "libs/circle"]
+	path = libs/circle
+	url = https://github.com/mikyjazz/circle.git
